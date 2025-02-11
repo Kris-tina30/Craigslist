@@ -12,10 +12,7 @@
 li {
   list-style: none;
 }
-img {
-  max-width: 100%;
-  display: block;
-}
+
 body {
   width: auto;
   max-width: 1000px;
@@ -37,15 +34,86 @@ h2 {
   padding-right: 15px;
 }
 
-.side-bar ul {
+.side-bar {
   background-color: rgb(214, 208, 208);
 }
 .side-bar form {
   background-color: rgb(178, 170, 170);
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 5px;
 }
 input {
   display: block;
+  width: 115px;
+  margin: 3px 0;
+  border: 2px solid rgb(214, 208, 208);
+  padding: 3px;
 }
 .side-bar select {
   display: block;
+}
+section {
+  display: inline-block;
+}
+section:not(:last-child) {
+  margin-right: 13px;
+}
+
+p {
+  background-color: rgb(249, 246, 246);
+  margin-bottom: 3px;
+}
+h3 {
+  background-color: rgb(214, 208, 208);
+  padding-left: 4px;
+}
+
+.list-side-bar li {
+  background-color: rgb(249, 246, 246);
+  margin: 8px;
+  font-weight: bold;
+  display: inline-block;
+}
+.side-bar form label {
+  background-color: rgb(214, 208, 208);
+}
+button {
+  padding: 3px;
+}
+.list-info li {
+  text-align: center;
+  margin-top: 15px;
+}
+.list-info-color {
+  font-size: 14px;
+  background-color: rgb(249, 246, 246);
+  width: 150px;
+}
+.side-bar p {
+  background-color: rgb(214, 208, 208);
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.events-wrap {
+  margin-bottom: 8px;
+}
+.personals-wrap {
+  margin-bottom: 25px;
+}
+.partners-wrap {
+  margin-bottom: 25px;
+}
+
+.housing-wrap {
+  margin-bottom: 8px;
+}
+.sale-wrap {
+  margin-bottom: 25px;
+}
+.color-no-gray {
+  background-color: rgb(238, 233, 233);
 }
