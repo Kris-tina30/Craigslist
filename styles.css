@@ -17,9 +17,11 @@ body {
   width: auto;
   max-width: 1000px;
   margin: auto;
-  border: 1px solid black;
   padding: 12px 25px 12px 12px;
   background-color: rgb(238, 233, 233);
+}
+header {
+  margin-bottom: 25px;
 }
 h2 {
   display: inline-block;
@@ -51,11 +53,11 @@ input {
   border: 2px solid rgb(214, 208, 208);
   padding: 3px;
 }
-.side-bar select {
-  display: block;
-}
+
 section {
   display: inline-block;
+  vertical-align: top;
+  width: 23%;
 }
 section:not(:last-child) {
   margin-right: 13px;
@@ -69,7 +71,9 @@ h3 {
   background-color: rgb(214, 208, 208);
   padding-left: 4px;
 }
-
+.side-bar select {
+  display: block;
+}
 .list-side-bar li {
   background-color: rgb(249, 246, 246);
   margin: 8px;
@@ -86,7 +90,7 @@ button {
   text-align: center;
   margin-top: 15px;
 }
-.list-info-color {
+.list-info-link a {
   font-size: 14px;
   background-color: rgb(249, 246, 246);
   width: 150px;
