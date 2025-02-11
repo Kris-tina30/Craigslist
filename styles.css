@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  width: auto;
+  max-width: 1000px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 12px 25px 12px 12px;
+  background-color: rgb(238, 233, 233);
+}
+h2 {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-title {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgb(214, 208, 208);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.side-bar ul {
+  background-color: rgb(214, 208, 208);
+}
+.side-bar form {
+  background-color: rgb(178, 170, 170);
+}
+input {
+  display: block;
+}
+.side-bar select {
+  display: block;
+}
