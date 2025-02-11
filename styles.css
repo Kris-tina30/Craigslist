@@ -117,3 +117,6 @@ button {
 .color-no-gray {
   background-color: rgb(238, 233, 233);
 }
+.side-bar h2 {
+  display: none;
+}
